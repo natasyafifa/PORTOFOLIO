@@ -1,1 +1,1 @@
-# PORTOFOLIO
+This repository contains a collection of my projects, experiences, and works as an Informatics student at the University of Jember. It includes my portfolio website, academic projects, and mini projects that I developed to continuously improve my skills in IT, networking, databases, and software development.
