@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Natasya - Portfolio Kreatif</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="loader">
+    <p>Loading Website...</p>
+    <div class="spinner"></div>
+  </div>
+
+  <nav>
+    <div class="nav-left">
+      <img src="img/NAT.jpg" alt="Foto Natasya">
+      <span>Natasya Fifa Cahyanisa</span>
+    </div>
+    <div class="nav-right">
+      <a href="#Hero">Home</a>
+      <a href="#AboutMe">About Me</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Skills">Skills</a> 
+      <a href="#SayHi">Say Hi</a>
+    </div>
+  </nav>
+
+  <!--Hero Section-->
+  <section id="Hero" class="Hero">
+    <div class="img-center">
+      <img src="img/NAT.jpg" alt="Foto Natasya" width="180">
+      <h2>Welcome to My Portfolio Website</h2>
+    </div>
+  </section>
+
+  <section id="AboutMe" class="AboutMe">
+    <h2>About Me</h2>
+    <h3>Hello👋</h3>
+    <p>My name is Natasya Fifa Cahyanisa, a second-year Informatics student at the Faculty of Computer Science, Universitas Jember.</p>
+    <p>I have a strong interest in Technology and am committed to continuous learning while developing innovative solutions as part of a team in today's ever-evolving tech landscape.</p>
+    <p>Outside of my studies, I'm actively involved in organizational activities, currently running my work program with HMIF UNEJ 💚.</p>
+  </section>
+
+  <section id="Projects" class="Projects">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <img src="img/ALGO.jpg" alt="Project 1">
+        <h3>Algoritma Pemrograman</h3>
+        <p>Aplikasi terminal sederhana dengan menggunakan Python</p>
+      </div>
+      <div class="project-card">
+        <img src="img/COMPILER.jpg" alt="Project 2">
+        <h3>Website Kelompok</h3>
+        <p>Website yang dibuat dengan HTML, CSS, serta JavaScript sederhana.</p>
+      </div>
+  </section>
+
+  <section id="Skills" class="Skills"> <!-- Ubah id dan class -->
+    <h2>My Skills</h2>
+    <p>Semoga dengan ini bisa lebih kenal kemampuan aku yaa:D</p>
+    <div class="skills-container"> <!-- Container untuk 2 card -->
+      <!-- Card Hard Skills -->
+      <div class="skills-card">
+        <h3>Hard Skills</h3>
+        <ul>
+          <li>Python Programming</li>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Algorithms & Data Structures</li>
+          <li>Web Development Basics</li>
+          <li>Database Management (SQL)</li>
+        </ul>
+      </div>
+      
+      <div class="skills-card">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Team Collaboration</li>
+          <li>Problem Solving</li>
+          <li>Communication</li>
+          <li>Time Management</li>
+          <li>Adaptability to New Tech</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--Section Say Hi-->
+  <!--Section Say Hi-->
+  <section id="SayHi" class="SayHi">
+    <h2>Say Hi</h2>
+    <p>Bisa hubungi aku melalui form ini yaa:</p>
+  <form id="form" method="post">
+    <input type="text" id="nama" name="name" placeholder="Nama Anda" required>
+    <input type="email" id="email" name="email" placeholder="Email Anda" required>
+    <textarea id="pesan" name="message" placeholder="Pesan Anda" required></textarea>
+    <p style="color: red; font-style: italic; margin-top: 5px;">* Semua field wajib diisi</p>
+    <button type="submit">Kirim Pesan</button>
+    <button type="reset">Reset</button>
+  </form>
+  <p id="halo" style="text-align: center; margin-top: 20px; font-weight: bold; color: #c659bb;"></p>
+    <p style="text-align: center; margin-top: 30px;">Atau kunjungi sosial mediaku:</p>
+    <div style="text-align: center; margin-top: 15px;">
+      <a href="https://github.com/natasyafifa" target="_blank" style="margin: 0 10px; color: #c659bb; text-decoration: none; font-weight: bold; transition: color 0.3s ease;">Github</a> |
+      <a href="https://instagram.com/natasyafifa" target="_blank" style="margin: 0 10px; color: #c659bb; text-decoration: none; font-weight: bold; transition: color 0.3s ease;">Instagram</a> |
+      <a href="https://www.linkedin.com/in/natasyafifacahyanisa/" target="_blank" style="margin: 0 10px; color: #c659bb; text-decoration: none; font-weight: bold; transition: color 0.3s ease;">LinkedIn</a> |
+      <a href="https://drive.google.com/file/d/1NgnzAOSaUxlWBUryHEcXN44YyetaS0Ll/view?usp=sharing" target="_blank" style="margin: 0 10px; color: #c659bb; text-decoration: none; font-weight: bold; transition: color 0.3s ease;">CV</a>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer>
+    <p>© 2025 Dibuat dengan ❤️ oleh Natasya</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
